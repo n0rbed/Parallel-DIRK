@@ -1,1 +1,1 @@
-# Parallel-DIRK
+SDIRK
