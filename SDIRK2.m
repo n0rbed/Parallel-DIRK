@@ -1,5 +1,7 @@
-function [y_prediction] = SDIRK2_2(f, t_n, y_n, h, n_steps)
+function [y_prediction] = SDIRK2_2(f, t_0, y_0, h, n_steps)
     y_prediction = [];
+    y_n = y_0;
+    t_n = t_0;
     syms k;
     for i = 1:n_steps
         % Stage 1
